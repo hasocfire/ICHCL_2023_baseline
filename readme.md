@@ -22,7 +22,7 @@ pip install -r requirements.txt
 ## Running the Script
 To run the script with the desired arguments, use the following command:
 ```
-python script_name.py --data_directory <path/to/data> --task <binary/multiclass> --gpu <gpu_index> --epochs <num_epochs> --re_epochs <num_re_epochs> --lr <learning_rate> --wd <weight_decay> --batch_size <batch_size> --num_labels <num_labels>
+python main.py --data_directory <path/to/data> --task <binary/multiclass> --gpu <gpu_index> --epochs <num_epochs> --re_epochs <num_re_epochs> --lr <learning_rate> --wd <weight_decay> --batch_size <batch_size> --num_labels <num_labels>
 ```
 
 # Explanation of the arguments
